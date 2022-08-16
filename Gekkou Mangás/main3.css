@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    font-family: "Lato",sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#header{
+    background-color: rgba(0, 0, 0, 0.904);
+    margin: 0;
+    top: 0;
+    position: sticky;
+    z-index: 1;    
+}
+
+.botao{
+    color: aliceblue;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.botao :hover{
+    color:darkorchid;
+    
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20%; 
+    list-style: none;
+    align-items: center;
+}
+#shizuka{
+    width: 23%;
+    position: relative;
+    right: 20%;
+    
+}
+input[type=text]{
+    border: none;
+    outline: transparent;
+    transition: width 0.4s ease-in-out;
+    position: relative;
+    right: 300%;
+  }
+  input[type=text]:focus{
+width: 200%;}
+a{ color: white;
+    text-decoration: none;}
+h2{ color:darkmagenta}
+p{color: darkslateblue;}
+
+#p1 :hover{
+ cursor: pointer;
+}
+#p2 :hover{
+    cursor: pointer;
+}
+#p3 :hover{
+    cursor: pointer;}
+#p4:hover{
+    cursor: pointer;}

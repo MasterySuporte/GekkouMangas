@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    font-family: "Lato",sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#header{
+    background-color: rgba(0, 0, 0, 0.904);
+    margin: 0;
+    top: 0;
+    position: sticky;
+    z-index: 1;    
+}
+
+.botao{
+    color: aliceblue;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.botao :hover{
+    color:darkorchid;
+    
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20%; 
+    list-style: none;
+    align-items: center;
+}
+#shizuka{
+    width: 23%;
+    position: relative;
+    right: 20%;
+    
+}
+input[type=text]{
+    border: none;
+    outline: transparent;
+    transition: width 0.4s ease-in-out;
+    position: relative;
+    right: 300%;
+  }
+  input[type=text]:focus {
+      width: 200%;
+  }
+  #produtos{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left: 11%;
+    row-gap: 5%; 
+}
+h2{ color:blueviolet;
+margin-left: 10%;}
+
+.test :hover{
+    transform: scale(1.05);
+    transition: transform .2s;
+    cursor: pointer;
+    border-color: black;
+    padding: 2%;
+}
+.a1{ 
+    color: blueviolet;
+    font-size: 86%;
+    border: none;
+}
+
+.a2{
+    color: indigo;
+    font-size: 90%;
+    border: none;
+}
+#fim{
+    Color: white;
+    background-color: black;
+    bottom: -175%;
+    position: absolute;
+    width: 110%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    
+}
+
+h4{
+  margin-left: 10%;
+}
+
+h4:hover{
+    color:blueviolet;
+    cursor: pointer;
+}
+#p1{
+    position:relative;
+    left: 32%
+}
+
+#p1 :hover{
+ cursor: pointer;
+}
+#p2 :hover{
+    cursor: pointer;
+}
+#p3 :hover{
+    cursor: pointer;
+}   
+a{ color: white;
+    text-decoration: none;}
